@@ -15,6 +15,7 @@
 		602152251C79EB0200E2D3BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602152231C79EB0200E2D3BE /* LaunchScreen.storyboard */; };
 		602152301C79EB0200E2D3BE /* langnuoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6021522F1C79EB0200E2D3BE /* langnuoTests.m */; };
 		6021523B1C79EB0200E2D3BE /* langnuoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6021523A1C79EB0200E2D3BE /* langnuoUITests.m */; };
+		608456201E7774C50099A529 /* langnuoTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6084561F1E7774C50099A529 /* langnuoTabBarViewController.m */; };
 		60B6F6CE1C868514003C8F39 /* IOS知识结构图.png in Resources */ = {isa = PBXBuildFile; fileRef = 60B6F6CD1C868514003C8F39 /* IOS知识结构图.png */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,8 @@
 		602152361C79EB0200E2D3BE /* langnuoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = langnuoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6021523A1C79EB0200E2D3BE /* langnuoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = langnuoUITests.m; sourceTree = "<group>"; };
 		6021523C1C79EB0200E2D3BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6084561E1E7774C50099A529 /* langnuoTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = langnuoTabBarViewController.h; sourceTree = "<group>"; };
+		6084561F1E7774C50099A529 /* langnuoTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = langnuoTabBarViewController.m; sourceTree = "<group>"; };
 		60B6F6CD1C868514003C8F39 /* IOS知识结构图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IOS知识结构图.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +107,7 @@
 		602152141C79EB0200E2D3BE /* langnuo */ = {
 			isa = PBXGroup;
 			children = (
+				6084561D1E7774850099A529 /* Control */,
 				602152181C79EB0200E2D3BE /* AppDelegate.h */,
 				602152191C79EB0200E2D3BE /* AppDelegate.m */,
 				6021521B1C79EB0200E2D3BE /* ViewController.h */,
@@ -141,6 +145,15 @@
 				6021523C1C79EB0200E2D3BE /* Info.plist */,
 			);
 			path = langnuoUITests;
+			sourceTree = "<group>";
+		};
+		6084561D1E7774850099A529 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				6084561E1E7774C50099A529 /* langnuoTabBarViewController.h */,
+				6084561F1E7774C50099A529 /* langnuoTabBarViewController.m */,
+			);
+			path = Control;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +223,7 @@
 				TargetAttributes = {
 					602152111C79EB0200E2D3BE = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 65J33BTY96;
 					};
 					6021522A1C79EB0200E2D3BE = {
 						CreatedOnToolsVersion = 7.2;
@@ -277,6 +291,7 @@
 				6021521D1C79EB0200E2D3BE /* ViewController.m in Sources */,
 				6021521A1C79EB0200E2D3BE /* AppDelegate.m in Sources */,
 				602152171C79EB0200E2D3BE /* main.m in Sources */,
+				608456201E7774C50099A529 /* langnuoTabBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 65J33BTY96;
 				INFOPLIST_FILE = langnuo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liuyinghui.langnuo;
@@ -426,6 +442,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 65J33BTY96;
 				INFOPLIST_FILE = langnuo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liuyinghui.langnuo;
